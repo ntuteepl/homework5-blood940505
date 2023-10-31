@@ -6,7 +6,7 @@ int main()
     int h,m;
     float ha,ma,a;
     scanf("%d%d",&h,&m);
-    ha = h*30 + m*0.5;
+    ha = (h*30) + (m*0.5);
     ma = m*6;
     if(ha > ma){
         a = ha - ma;
@@ -15,7 +15,7 @@ int main()
         a = ma - ha;
     }
     if(a > 180){
-        a = a - 180;
+        a = 360 - a;
     }
-    printf("%.3f",a);//
+    printf("%.3f",a);
 }

@@ -17,5 +17,5 @@ int main()
     if(a > 180){
         a = a - 180;
     }
-    printf("%.3f",a);
+    printf("%.3f",a);//
 }

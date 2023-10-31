@@ -5,7 +5,7 @@ int main()
 {
     int h,m;
     float ha,ma,a;
-    scanf("%d %d",&h,&m);
+    scanf("%d%d",&h,&m);
     ha = h*30 + m*0.5;
     ma = m*6;
     if(ha > ma){
@@ -19,4 +19,3 @@ int main()
     }
     printf("%.3f",a);
 }
-
